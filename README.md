@@ -1,5 +1,7 @@
 # Turtlebot Autonomous Exploration (3D) 
 
+Change the file:/src/turtlebot_exploration_3d.cpp of https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d
+
 Sorry I recently updated a wrong version of this. The bad repository was from Oct. 8th and now it's been fixed. Please let me know if you run into any issue with the current version.
 
 ## Overview
