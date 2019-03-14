@@ -1,0 +1,26 @@
+<launch>
+  <include file="$(find turtlebot_exploration_3d)/gazebo_simulation/launch/freenect.launch">
+
+    <!-- use device registration -->
+    <!-- changed by wangzhaodong, 18/11/29 -->
+    <!--arg name="rgb_processing"                  value="true" /-->
+    <!--arg name="ir_processing"                   value="false" /-->
+    <!--arg name="depth_processing"                value="false" /-->
+    <!--arg name="depth_registered_processing"     value="true" /-->
+    <!--arg name="disparity_processing"            value="false" /-->
+    <!--arg name="disparity_registered_processing" value="false" /-->
+    <!--arg name="sw_registered_processing"        value="false" /-->
+    <!--arg name="hw_registered_processing"        value="true" /-->
+    
+    <arg name="rgb_processing"                  value="true" />
+    <arg name="ir_processing"                   value="true" />
+    <arg name="depth_processing"                value="true" />
+    <arg name="depth_registered_processing"     value="true" />
+    <arg name="disparity_processing"            value="true" />
+    <arg name="disparity_registered_processing" value="true" />
+    <arg name="sw_registered_processing"        value="true" />
+    <arg name="hw_registered_processing"        value="true" />
+
+  </include>
+</launch>
+
